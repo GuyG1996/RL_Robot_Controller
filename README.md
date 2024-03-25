@@ -4,9 +4,11 @@
 This package contains a Python script (`q_learner.py`) that implements a Q learning algorithm for controlling a Turtlebot3 Burger robot in a Gazebo simulation environment. The `q_table.csv` file contains a table 3133 X 7 that represent the current policy of the robot.
 
 ## Setup Instructions
-1. **Installation**: Clone the `task4_env` folder into your `catkin_ws/` , build the code using `catkin_make`, and source the setup file (`source devel/setup.bash`).
+1. **Installation**:
+- Clone the `task4_env` folder into your `catkin_ws/` , build the code using `catkin_make`, and source the setup file (`source devel/setup.bash`).
 
-2. **Launching the Environment**: Use the provided launch file to start the simulation environment:
+3. **Launching the Environment**:
+- Use the provided launch file to start the simulation environment:
    ```
     roslaunch task4_env task4_env.launch
    ```
