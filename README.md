@@ -6,12 +6,16 @@ This package contains a Python script (`q_learner.py`) that implements a Q learn
 ## Setup Instructions
 1. **Installation**: Clone and replace the `src` into your `catkin_ws/` (instead of another src directory if exist), build the code using `catkin_make`, and source the setup file (`source devel/setup.bash`).
 
-2. **Launching the Environment**: Use the provided launch file to start the simulation environment: 
-    `roslaunch task4_env task4_env.launch`
+2. **Launching the Environment**: Use the provided launch file to start the simulation environment:
+   ```
+    roslaunch task4_env task4_env.launch
+   ```
 
 ## Usage
 - Execute the Q learner script by running:
-    `rosrun task4_env q_learner.py <learning_mode>`
+    ```
+  rosrun task4_env q_learner.py <learning_mode>
+    ```
 - Replace `<learning_mode>` with `0` to execute the current policy(by `q_table.csv`) 10 times and print the average reward, or `1` to enable learning(defualt 1000 runs).
 
 ## Features
